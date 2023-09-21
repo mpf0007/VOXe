@@ -7,3 +7,6 @@ authors = ["Pouya Farahaani <m.p.farahany@gmail.com>"]
 [[bin]]
 name = "VOXe"
 path = "src/main.rs"
+
+[dependencies]
+mio-websocket = { git = "https://github.com/nbaksalyar/mio-websocket" }
